@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import '../../../../core/constants/app_endpoints.dart';
-import '../../../../core/network/api_client.dart';
-import '../../../../core/storage/secure_token_storage.dart';
+import '../../../core/constants/app_endpoints.dart';
+import '../../../core/network/api_client.dart';
+import '../../../core/storage/secure_token_storage.dart';
 import '../models/user_model.dart';
 import '../models/login_request_model.dart';
 import '../models/google_login_request_model.dart';

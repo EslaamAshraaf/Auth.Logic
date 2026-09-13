@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:auth_template/core/network/api_client.dart';
+import '../../../core/network/api_client.dart';
 import '../services/auth_service.dart';
 import 'verify_registration_state.dart';
 

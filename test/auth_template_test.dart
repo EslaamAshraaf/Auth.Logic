@@ -1,30 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:auth_template/core/network/api_client.dart';
-import 'package:auth_template/core/storage/shared_prefs_token_storage.dart';
-import 'package:auth_template/features/auth/services/auth_service.dart';
-import 'package:auth_template/features/auth/viewmodels/login_viewmodel.dart';
-import 'package:auth_template/features/auth/viewmodels/login_state.dart';
-import 'package:auth_template/features/auth/viewmodels/register_viewmodel.dart';
-import 'package:auth_template/features/auth/viewmodels/register_state.dart';
-import 'package:auth_template/features/auth/viewmodels/forget_password_viewmodel.dart';
-import 'package:auth_template/features/auth/viewmodels/forget_password_state.dart';
-import 'package:auth_template/features/auth/viewmodels/verify_otp_viewmodel.dart';
-import 'package:auth_template/features/auth/viewmodels/verify_otp_state.dart';
-import 'package:auth_template/features/auth/viewmodels/verify_registration_viewmodel.dart';
-import 'package:auth_template/features/auth/viewmodels/verify_registration_state.dart';
-import 'package:auth_template/features/auth/viewmodels/resend_otp_viewmodel.dart';
-import 'package:auth_template/features/auth/viewmodels/resend_otp_state.dart';
-import 'package:auth_template/features/auth/viewmodels/reset_password_viewmodel.dart';
-import 'package:auth_template/features/auth/viewmodels/reset_password_state.dart';
-import 'package:auth_template/features/auth/viewmodels/logout_viewmodel.dart';
-import 'package:auth_template/features/auth/viewmodels/logout_state.dart';
-import 'package:auth_template/features/auth/models/user_model.dart';
-import 'package:auth_template/features/auth/models/login_request_model.dart';
-import 'package:auth_template/features/auth/models/register_request_model.dart';
-import 'package:auth_template/features/auth/models/forget_password_request_model.dart';
-import 'package:auth_template/features/auth/models/verify_otp_request_model.dart';
-import 'package:auth_template/features/auth/models/reset_password_request_model.dart';
-import 'package:auth_template/features/auth/models/logout_request_model.dart';
+import 'package:auth_logic/auth_logic.dart';
 
 void main() {
   // Helper to create dependencies
