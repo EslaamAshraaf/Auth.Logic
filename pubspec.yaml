@@ -8,8 +8,8 @@ repository: https://github.com/EslaamAshraaf/Auth.Logic
 issue_tracker: https://github.com/EslaamAshraaf/Auth.Logic/issues
 
 environment:
-  sdk: ^3.11.0
-  flutter: ">=3.0.0"
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
 
 dependencies:
   flutter:
@@ -18,12 +18,12 @@ dependencies:
   dio: ^5.11.0
   flutter_bloc: ^9.1.1
   equatable: ^2.1.0
-  phone_numbers_parser: ^8.0.0
+  phone_numbers_parser: ^9.0.26
   device_info_plus: ^13.2.0
-  firebase_core: ^4.13.0
-  firebase_messaging: ^16.5.0
+  firebase_core: ^4.14.0
+  firebase_messaging: ^16.6.0
   google_sign_in: ^7.2.0
-  sign_in_with_apple: ^8.1.0
+  sign_in_with_apple: ^8.2.0
   image_picker: ^1.2.3
 
 dev_dependencies:

@@ -71,7 +71,7 @@ class LoginScreen extends StatelessWidget {
                               context.read<LoginViewModel>().login(
                                     login: '+1234567890',
                                     password: 'password',
-                                    locale: 'en',
+                                    locale: 'en', fcmToken: '', deviceId: '', deviceType: '',
                                   );
                             },
                       child: state.status == LoginStatus.loading
