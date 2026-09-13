@@ -1,8 +1,7 @@
 name: auth_logic
 description: >-
-  Production-ready authentication package for Flutter. MVVM + Cubit with 
-  login, register, forgot password, OTP verification, Google/Apple sign-in, 
-  token refresh, retry logic, and colored network logs.
+  Production-ready Flutter auth package with MVVM + Cubit. Login, register, 
+  OTP, token refresh, retry, and colored network logs.
 version: 1.0.0
 homepage: https://github.com/EslaamAshraaf/Auth.Logic
 repository: https://github.com/EslaamAshraaf/Auth.Logic
