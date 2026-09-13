@@ -1,0 +1,32 @@
+name: auth_template
+description: "Reusable authentication template for Flutter projects."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.5
+  dio: ^5.11.0
+  flutter_bloc: ^9.1.1
+  equatable: ^2.1.0
+  dartz: ^0.10.1
+  phone_numbers_parser: ^8.0.0
+  device_info_plus: ^13.2.0
+  firebase_core: ^4.13.0
+  firebase_messaging: ^16.5.0
+  google_sign_in: ^7.2.0
+  sign_in_with_apple: ^8.1.0
+  image_picker: ^1.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
